@@ -16,7 +16,7 @@ qr = qrcode.QRCode(
 	border= 0,
 )
 
-qr.add_data("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+qr.add_data("https://kukac113.github.io/qrcode-maker/")
 qr.make(fit=True)
 
 img = qr.make_image(
